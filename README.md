@@ -12,7 +12,7 @@ Some of Snowflake's benefits include:
 
 * **Directly Sortable** - The IDs are sortable without loading the full objects that they represent, using the above order.
 
-* **Compact** - There are many otherwise reasonable solutions to this problem that require 128 bit numbers. For various reasons, we need to keep our ids under 64 bits.
+* **Compact** - There are many otherwise reasonable solutions to this problem that require 128 bit numbers. For various reasons, we need to keep our IDs under 64 bits.
 
 ### ID Composition
 * time - 41 bits (millisecond precision w/ a custom epoch gives us 69 years)
