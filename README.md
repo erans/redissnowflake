@@ -4,6 +4,8 @@ Written by Eran Sandler ([@erans](https://twitter.com/erans))
 
 This is a simple Redis module which generates unique IDs based on [Twitter's Snowflake](https://github.com/twitter/snowflake/tree/snowflake-2010) at high scale with some simple guarantees.
 
+This Redis module wraps code from [snowflaked](https://github.com/dwayn/snowflaked) made by Dwayn Matthies ([dwayn](https://github.com/dwayn)). Thanks for the code Dwayn!
+
 Some of Snowflake's benefits include:
 
 * **Uncoordinated** - For high availability within and across data centers, machines generating IDs should not have to coordinate with each other.
